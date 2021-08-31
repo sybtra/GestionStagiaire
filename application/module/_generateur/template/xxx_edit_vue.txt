@@ -1,0 +1,4 @@
+        <form method="post" action="<?=hlien("[nomTable]","edit")?>">
+		<input type="hidden" name="[nomCle]" id="[nomCle]" value="<?= $id ?>" />[listeChamps]
+		<input class="btn btn-success" type="submit" name="btSubmit" value="Enregistrer" />
+	</form>              

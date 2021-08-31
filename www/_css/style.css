@@ -1,0 +1,53 @@
+body {
+	background-color: #c9c9c9;
+}
+
+label {
+	font-weight:bold;
+}
+
+
+.btn {
+	border-radius: 10px;	
+	border:0px solid #FFF;
+	color:#444;
+	background: linear-gradient(145deg, #d5d5d5, #b3b3b3);
+	box-shadow:  5px 5px 11px #a7a7a7,
+             -5px -5px 11px #e7e7e7;
+}
+
+.btn:hover {
+	border-radius: 10px;	
+	border:0px solid #FFF;
+	color:#444;
+	background: #c7c7c7;
+	box-shadow: inset 5px 5px 11px #a7a7a7,
+            inset -5px -5px 11px #e7e7e7;
+}
+
+.btn-primary {
+	color:blue;	
+}
+
+.btn-warning {
+	color:rgb(208, 255, 0);	
+}
+
+.btn-danger {
+	color:rgb(255, 0, 43);	
+}
+
+.btn-info {
+	color:rgb(0, 110, 255);	
+}
+
+.btn-success {
+	color:rgb(10, 88, 43);	
+}
+
+
+.texte {
+	background-color: #FFF;
+	font-size: 16px;
+	padding: 10px;
+}
